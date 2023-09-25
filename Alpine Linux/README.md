@@ -114,5 +114,21 @@ The available runlevels are:
 - **hotplugged**
 - **manual**
 
+## Docker
 
+```bash
+apk add docker
+```
+
+```bash
+addgroup root docker
+```
+
+```bash
+rc-update add docker
+```
+
+```bash
+service docker start
+```
 
